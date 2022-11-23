@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="./img/logo.png" alt="" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" id="Btn1">About Us</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>That's what <br><span>I like</span></h2>
+                <p>peci là một loại đồ uống có ga ,peci là một loại đồ uống có ga,peci là một loại đồ uống có ga
+                    peci là một loại đồ uống có ga, peci là một loại đồ uống có ga...
+                </p>
+                <a href="#">View All products</a>
+            </div>
+            <div class="imgBox">
+                <img src="./img/pepsi001.png" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    let btn1 = document.getElementById("Btn1")
+    Btn1.addEventListener("click", () => {
+        window.location.href = "./webpage.html";
+    })
+</script>
+
+</html>
